@@ -1,0 +1,54 @@
+<com.lzp.floatingactionbuttonplus.FloatingActionButtonPlus
+    android:id="@+id/FabPlus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:switchFabColor="#ffffff"
+    app:switchFabIcon="@drawable/add"
+    app:layout_behavior="com.lzp.floatingactionbuttonplus.FabBehavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="DIY教程"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resource_diy"
+            app:backgroundTint="#ffffff"
+            app:fabSize="mini" />
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="新手扫盲"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resource_concept"
+            app:backgroundTint="#ffffff"
+            app:fabSize="mini" />
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+    <com.lzp.floatingactionbuttonplus.FabTagLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tagText="基本构造"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resource_structure"
+            app:backgroundTint="#ffffff"
+            app:fabSize="mini" />
+    </com.lzp.floatingactionbuttonplus.FabTagLayout>
+
+
+
+</com.lzp.floatingactionbuttonplus.FloatingActionButtonPlus>
